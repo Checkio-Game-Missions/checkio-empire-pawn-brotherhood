@@ -1,11 +1,10 @@
-[Chess](http://en.wikipedia.org/wiki/Chess) is a perfect game to train our troops for strategy thinking.
-And simple pawns can be used to learn our snipers choose targets.
+[Chess](http://en.wikipedia.org/wiki/Chess) is the perfect game to train our troops how to think strategically.
+For this mission, simple pawns can be used to teach our snipers how to choose targets effectively.
 
-Chess is a two-player strategy game played on a checkered game board laid out in eight rows 
-(called ranks and denoted with numbers 1 to 8) and eight columns (called files and denoted with letters a to h) of squares.
+Chess is a two-player strategy game played on a square checkered game board laid out in eight rows called ranks which are denoted with numbers 1 to 8, and eight columns called files and denoted with letters a to h.
 Each square of the chessboard is identified by a unique coordinate pair
 — a letter and a number (ex, "a1", "h8", "d6").
-For this mission we only need to concern ourselves with pawns.
+To train the snipers, we only need to concern ourselves with pawns for now.
 A pawn may capture an opponent's piece on a square diagonally in front of it on an adjacent file,
 by moving to that square. For white pawns the front squares are squares with greater row than their.
 
@@ -29,8 +28,8 @@ safe_pawns({"b4", "c4", "d4", "e4", "f4", "g4", "e5"}) == 1
 ```
 **How it is used:**
 
-For a game AI one of the important tasks is the ability to estimate game state.
-This concept will show how you can do this on the simple chess figures positions.
+For game AI, the the important task is the ability to understand the game state.
+This mission will show how you can do this using simple chess figure positions.
 
 **Precondition:**
 ```python
