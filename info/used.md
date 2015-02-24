@@ -1,4 +1,4 @@
 **How it is used:**
 
-For a game AI one of the important tasks is the ability to estimate game state.
-This concept will show how you can do this on the simple chess figures positions.
+For game AI, the the important task is the ability to understand the game state.
+This mission will show how you can do this using simple chess figure positions.

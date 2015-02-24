@@ -1,8 +1,8 @@
-Chess is a two-player strategy game played on a checkered game board laid out in eight rows 
-(called ranks and denoted with numbers 1 to 8) and eight columns (called files and denoted with letters a to h) of squares.
+Chess is a two-player strategy game played on a square checkered game board laid out in eight rows called ranks 
+which are denoted with numbers 1 to 8, and eight columns called files and denoted with letters a to h.
 Each square of the chessboard is identified by a unique coordinate pair
 — a letter and a number (ex, "a1", "h8", "d6").
-For this mission we only need to concern ourselves with pawns.
+To train the snipers, we only need to concern ourselves with pawns for now.
 A pawn may capture an opponent's piece on a square diagonally in front of it on an adjacent file,
 by moving to that square. For white pawns the front squares are squares with greater row than their.
 
