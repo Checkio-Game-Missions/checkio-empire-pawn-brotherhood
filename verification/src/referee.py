@@ -9,6 +9,10 @@ cover = """def cover(func, data):
 """
 
 
+def set_repr(f, data):
+    repr("{}({})".format(f, set(data["input"])))
+
+
 class Referee(RefereeBase):
     TESTS = TESTS
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
@@ -19,3 +23,9 @@ class Referee(RefereeBase):
         "python_3": cover,
         "javascript": None
     }
+    CALLED_REPRESENTATIONS = {
+        "python_2": set_repr,
+        "python_3": set_repr,
+        "javascript": None
+    }
+
