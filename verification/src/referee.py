@@ -9,8 +9,8 @@ cover = """def cover(func, data):
 """
 
 
-def set_repr(f, data):
-    repr("{}({})".format(f, set(data["input"])))
+def set_repr(data, f):
+    return repr("{}({})".format(f, set(data["input"])))
 
 
 class Referee(RefereeBase):
@@ -24,7 +24,6 @@ class Referee(RefereeBase):
         "javascript": None
     }
     CALLED_REPRESENTATIONS = {
-        "python_2": set_repr,
         "python_3": set_repr,
         "javascript": None
     }

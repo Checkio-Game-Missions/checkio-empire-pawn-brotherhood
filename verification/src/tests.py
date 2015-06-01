@@ -1,5 +1,5 @@
 TESTS = {
-    "Level_1": [
+    "Rank_01": [
         {
             "input": ["b4", "d4", "f4", "c3", "e3", "g5", "d2"],
             "answer": 6,
