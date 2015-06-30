@@ -1,4 +1,4 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeBase, ENV_NAME
 
 
 import settings_env
@@ -18,13 +18,13 @@ class Referee(RefereeBase):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "safe_pawns"
+    FUNCTION_NAMES = {
+        ENV_NAME.JS_NODE: "safePawns"
+    }
     ENV_COVERCODE = {
-        "python_2": cover,
-        "python_3": cover,
-        "javascript": None
+        ENV_NAME.PYTHON: cover,
     }
     CALLED_REPRESENTATIONS = {
-        "python_3": set_repr,
-        "javascript": None
+        ENV_NAME.PYTHON: set_repr,
     }
 
