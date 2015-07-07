@@ -1,6 +1,6 @@
 "use strict";
 
-function safe_pawns(pawns) {
+function safePawns(pawns) {
     return 0;
 }
 
